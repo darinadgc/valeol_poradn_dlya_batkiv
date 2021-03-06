@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }/**/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  min-height: 100%;
+  min-width: 100%;
+  font-size: 100%;
+  line-height: 1.3;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit;
+  font-size: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style-image: url(images2.png); }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  font-weight: 500;
+  text-align: center;
+  padding: 1.3%;
+}
+
+/*--------------------*/
+
+
+body {
+  background-color: #FEFFFC;
+text-align: justify;
+font-size: 20px;
+font-family: Cambria;
+}
+cite {
+	font-size: 25px;
+	color: #751678;
+}
+blockquote, p {
+	margin: 1.6%;
+}
+h1 {
+	color: #5c096e;
+}h2 {
+	color: #b86363;
+}h3 {
+	color: #d51e63;
+}h4 {
+	color: #69277c;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Cambria;
+}
+
+
+
+.tablink {
+  background-color: #FFDB00;
+  color: #7851A9;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 8px;
+  font-family: Cambria; 
+  font-size: 21px;
+  width: 33%;
+  margin: 0 0 6px 0;
+}
+small {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tablink:hover {
+  background-color: #FFF29A;
+  color: #9F00C5;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #9370DB;
+  display: none;
+  padding: 0 12px 9px;
+  background-color: #D4D111;
+  
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+
+.tablink.active {
+  background-color: #CEFF00;
+  color: #CEFF00;
+}
+
+
+
+
+
+
+
+header a {
+
+  background-color: #0FD5FC;
+  color: #BA55D3;
+  cursor: pointer;
+  margin: 1%;
+  padding: 3px 9px;
+  border: 2.6px solid #7369EA;
+  text-align: justify;
+  outline: none;
+  font-size: 20px;
+  transition: 0.8s;
+  border-radius: 23px;
+  font-weight: 100;
+  display: inline-block;
+  line-height: 1;
+}
+
+header a:hover {
+  color: #A300F4;
+  background-color: #8EFC15;
+  border: 2.6px solid #7E96EB;
+    
+    box-shadow: 10px 10px 10px #FFD4FF;
+  transition: 0.46s all;
+    transform: scale(1);
+  box-shadow: 0 4px 1px #FFD4FF;
+  
+  outline: none;
+  transition: 0.8s;
+ 
+}
+li {
+	margin: 1%;
+}
+header nav a:active{
+  position: relative;
+  top: 4px;
+
+  box-shadow: unset;
+  
+}
+header nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+header a.active  { background-color: #FFF8A9;
+color: #003994;
+
+}
+pre {
+	font-family: inherit;
+	line-height: 1.22;
+}
+header a.active:hover {background-color: #E4FC18;
+
+ 
+}
+ul {
+	padding: 2% 4%;
+}
+p {
+	text-indent: 15px;
+	line-height: 1.3;
+}
+
+
+
+
+    header a:hover {
+    background-color: #FFF8A9;
+  color: #A300F4;
+    box-shadow: 0 4px 1px #FFD4FF;
+}
+header nav {padding: 2%;}
+header nav a:active{
+  position: relative;
+  top: 4px;
+
+  box-shadow: unset;
+  
+}
+header a.active  { color: #A300F4;
+  background-color: #8EFC15;
+  border: 2.6px solid #7E96EB;
+    
+  transition: 0.46s all;
+    transform: scale(1);
+  
+   
+  transition: 0.8s;
+  
+  font-weight: 100;
+
+}
+
+
+
+
+
+
+body {
+  padding: 0 2%;
+  
+}
+
+
+
+span {
+  /*! color: #F435C1; */
+  
+}
+
+
+ol {
+	padding: 2% 6%;
+	background: #fbd999;
+	border-radius: 12px;
+}
+.tablink:first-child {
+	border-top-left-radius: 12px;
+}
+.tablink:last-child {
+	border-top-right-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tablinks {
+  display: flex;
+  margin: 0 0 -5.8px 0;
+  width: 100.9%;
+}
+#aa {
+	background: #F2FF64;
+}
+#ac {
+	background: #CEFF00;
+}footer {
+	background-color: #1CBCD6;
+	padding: 2%;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}footer a {
+	background-color: #7274d4;
+	display: inline-block;
+	margin: 5px;
+	border-radius: 16px;
+	padding: 2px 11px;
+}footer a.active {
+	color: #44e4f4;
+}.tabcontent ol {
+	border-radius: 0;
+}
+@media (max-width:598px){
+	
+	body>ol, body>ul {
+	padding-left:33px;
+}
+}
+
+
+
